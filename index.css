@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+body{ 
+    background: #90a8a0;
+    font-family:"arial", sans-serif;
+ }
+ #header-button:active{
+    background: rgb(56, 61, 128);
+ }
+ #header-button{
+   position: relative;
+   top: 15px;
+   left: 8px;
+   background: rgb(111, 111, 218); 
+   color: rgb(173, 34, 115); 
+   font-size: 2em;
+   font-weight: bold;
+   border-radius: 7.5px;  
+ }
+nav ul{
+    text-align: right;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li a:hover {
+    font-weight: bold;
+
+}
+nav ul li a:link{
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 1.45em;
+    text-transform: uppercase;
+}
+
+.header-div{
+    background: url("./Images/bgg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 55vh;  
+    text-align: center;
+}
+h1{
+    margin: 55px 0;
+    color: rgb(111, 111, 218);
+    font-size: 4em;
+    
+    
+}
+h2{
+    color: rgb(13, 128, 156);
+    font-style:oblique;
+}
+.h3{ 
+    font-weight: bold;
+    font-size: 1.2765em;
+}
+section{
+    font-weight: bold;
+}
+.about-section{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 2em;
+}
+.about-text{
+    font-size:0.7em;
+    margin: 55px auto;
+}
+.about-div{
+    display: flex;
+    flex-direction: row;
+}
+.r1, .r2{
+    width: 45%;
+    margin: 25px auto;
+}
+.about-div-img{
+    height: 300px;
+    background: url(./Images/Lb4.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 6.5px;
+}
+.address-section{
+    text-align: center;
+    font-size: 2em;
+}
+.address-div{
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+.addr{
+    font-size: 0.65em;
+    margin: auto;
+}
+.vehicle-section{
+    text-align: center;
+    margin: 55px auto;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+.v-container{
+    width: 100vw;
+}
+@media only screen and (max-width: 650px){
+    .row-one, .row-two, .row-three, .row-4{
+        margin: 5px auto;
+        height:850px;
+        display: flex;
+        flex-direction: column;       
+    }
+    .rr{
+        width:75%;
+        height: 85%;
+        margin: 15px auto;
+        border-radius: 7px;
+        background: url("./Images/RR1.avif");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.row-one, .row-two, .row-three, .row-4{
+    margin: 5px auto;
+    width: 90%;
+    display: flex;  
+}
+.rr{
+    width: 23.5%;
+    height: 300px;
+    margin: 15px auto;
+    border-radius: 7px;
+    background: url("./Images/RR1.avif");
+    background-size: cover;
+    background-position: center;
+}
+#rr2{
+    background: url(./Images/RR2.avif);
+    background-size: cover;
+    background-position: center;
+}
+#rr3{
+    background: url(./Images/RR3.avif);
+    background-size: cover;
+    background-position: center;
+}
+#rr4{
+    background: url(./Images/RR4.avif);
+    background-size: cover;
+    background-position: center;
+}
+#bg1{
+    background: url(./Images/Bg1.avif);
+    background-size: cover;
+    background-position: center;
+}
+#bg2{
+    background: url(./Images/Bg2.avif);
+    background-size: cover;
+    background-position: center;
+}
+#bg3{
+    background: url(./Images/Bg3.avif);
+    background-size: cover;
+    background-position: center;
+}
+#bg4{
+    background: url(./Images/Bg4.avif);
+    background-size: cover;
+    background-position: center;
+}
+#lmb{
+    background: url("./Images/Lb2.avif");
+    background-size: cover;
+    background-position: center;
+}
+#lmb1{
+    background: url("./Images/Lb1.avif");
+    background-size: cover;
+    background-position: center;
+}
+#lmb2{
+    background: url("./Images/Lb3.avif");
+    background-size: cover;
+    background-position: center;
+}
+#lmb3{
+    background: url("./Images/Lb4.avif");
+    background-size: cover;
+    background-position: center;
+}
+#fr{
+    background: url("./Images/Fr1.avif");
+    background-size: cover;
+    background-position: center;
+}
+#fr1{
+    background: url("./Images/Fr2.avif");
+    background-size: cover;
+    background-position: center;
+}
+#fr2{
+    background: url("./Images/Fr3.avif");
+    background-size: cover;
+    background-position: center;
+}
+#fr3{
+    background: url("./Images/Fr4.avif");
+    background-size: cover;
+    background-position: center;
+}
+.contact-section{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+.ic-div{
+    display: flex;
+    justify-content: center;
+}
+.fa-brands{
+    text-decoration: none;
+    color: rgb(49, 110, 240);
+    margin: 5px 55px;
+}
+#ic-2{
+    color: rgb(85, 4, 4);
+}
+aside{
+    font-size:0.6em;
+}
+#button-two{
+    width: 125px;
+    height:45px;
+    margin: 5px;
+   background: rgb(49, 110, 240);
+  
+}
